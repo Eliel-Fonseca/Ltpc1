@@ -1,3 +1,18 @@
+def mostrarUsuario(nome, email, senha):
+    print("Usuario:")
+    print("Nome:", nome)
+    print("EMAIL:", email)
+    print("Senha:", senha)
+    
+def lerNovoUsuario():
+    nome = input("Nome:")
+    email = input("Email:")
+    senha = input("Senha:")
+    return nome, email, senha
+    
+n,c,i = lerNovoUsuario()
+mostrarUsuario(n,c,i)
+
 #Menu
 def agência_menu():
   print("Ação:")
