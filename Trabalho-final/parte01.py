@@ -46,3 +46,5 @@ while continuar == True:
     continuar = print("Deseja realizar outra operação?")
   elif opcao == 2:
     valor_usuário = input("Indique sua conta:")
+
+#Não conseguimos corrigir os erros e dar continuidade!!!
